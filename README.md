@@ -25,7 +25,7 @@ Wrap the part of your application where you want to perform access checks with P
 
 ```javascript
 import React from "react";
-import { PermifyProvider } from "@permify/react-permify";
+import { PermifyProvider } from "@permify/react-role";
 
 const App = () => {
     return (
@@ -65,7 +65,7 @@ Or using ```PermifyContext```:
 
 ```javascript
 import React from "react";
-import { PermifyContext } from "@permify/react-permify";
+import { PermifyContext } from "@permify/react-role";
 
 const AuthComponent = () => {
     const login = (setUserId) => {
@@ -106,7 +106,7 @@ You can check roles and permissions of the user with giving them as props.
 
 ```javascript
 import React from "react";
-import { HasAccess } from "@permify/react-permify";
+import { HasAccess } from "@permify/react-role";
 
 const AnyComponent = () => {
     return (
@@ -140,7 +140,7 @@ Using isAuthorized through the usePermify hook:
 
 ```javascript
 import React, {useState, useEffect} from "react";
-import { usePermify } from "@permify/react-permify";
+import { usePermify } from "@permify/react-role";
 
 const AnyComponent = () => {
     const { isAuthorized, isLoading } = usePermify();

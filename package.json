@@ -1,6 +1,6 @@
 {
   "name": "@permify/react-role",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "Lightweight role based access management solution for React applications",
   "author": "EgeAytin",
   "license": "Apache-2.0",
@@ -14,8 +14,8 @@
     "build": "webpack --mode production --config webpack.config.js"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.3.13",
