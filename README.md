@@ -1,5 +1,5 @@
 # React Role
-![npm](https://img.shields.io/npm/v/@permify/react-permify?style=flat-square)
+![npm](https://img.shields.io/npm/v/@permify/react-role?style=flat-square)
 ![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2FGetPermify)
 
 React Role is lightweight role based access management solution which provides components, hooks, and helper methods for controlling access checks and user permissions throughout your entire React application without any backend connection.
@@ -51,8 +51,8 @@ const login = async (e) => {
 
     setUser({
        id: "2",
-       roles: ["admin", "manager"], // optional
-       permissions: ["post-create", "user-delete", "content-show"] // optional
+       roles: ["admin", "manager"],
+       permissions: ["post-create", "user-delete", "content-show"]
     })
 
     //
