@@ -44,7 +44,12 @@ In order to check user roles or permissions, you should set logged in user with 
 Set the user using the ```usePermify``` hook:
 
 ```javascript
-const { setUserId } = usePermify();
+
+import { usePermify } from '@permify/react-role';
+
+...
+
+const { setUser } = usePermify();
 
 const login = async (e) => {
     const response = await login(email, password);
