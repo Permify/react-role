@@ -1,6 +1,6 @@
 # React Role
-![npm](https://img.shields.io/npm/v/@permify/react-role?style=flat-square)
-![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2FGetPermify)
+[![npm](https://img.shields.io/npm/v/@permify/react-role?style=flat-square)](https://www.npmjs.com/package/@permify/react-role)
+[![Twitter Follow](https://img.shields.io/twitter/follow/GetPermify?style=social)](https://twitter.com/GetPermify)
 
 React Role is lightweight role based access management solution which provides components, hooks, and helper methods for controlling access checks and user permissions throughout your entire React application without any backend connection.
 
