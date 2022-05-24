@@ -3,7 +3,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/GetPermify?style=social)](https://twitter.com/GetPermify)
 [![Discord](https://img.shields.io/discord/837692625737613362.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/nJdM6JnAtH)
 
-React Role is lightweight role based access management solution which provides components, hooks, and helper methods for controlling access checks and user permissions throughout your entire React application without any backend connection.
+React Role is lightweight role based access management solution which provides components, hooks, and helper methods for controlling access checks and user permissions throughout your entire React application.
 
 # Installation
 Use npm to install: 
@@ -174,6 +174,11 @@ const AnyComponent = () => {
 
 export default AnyComponent;
 ```
+
+Stargazers
+-----------
+
+[![Stargazers repo roster for @Permify/react-role](https://reporoster.com/stars/Permify/react-role)](https://github.com/Permify/react-role/stargazers)
 
 # Need More, Check Out our API
 
