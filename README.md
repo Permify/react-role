@@ -179,7 +179,7 @@ export default AnyComponent;
 
 Permify API is an authorization API which you can add complex rbac and abac solutions.
 
-[<img src="https://user-images.githubusercontent.com/39353278/157747851-ea8462be-60a4-498e-872a-e44cf42411b0.png" width="419px" />](https://www.permify.co/get-started)
+[<img src="https://user-images.githubusercontent.com/39353278/157747851-ea8462be-60a4-498e-872a-e44cf42411b0.png" width="419px" />](https://www.permify.co)
 
 
 <h2 align="left">:heart: Let's get connected:</h2>
