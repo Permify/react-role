@@ -73,7 +73,7 @@ import React from "react";
 import { PermifyContext } from "@permify/react-role";
 
 const AuthComponent = () => {
-    const login = (setUserId) => {
+    const login = (setUser) => {
         return async (event) => {
             const response = await login(email, password);
 
