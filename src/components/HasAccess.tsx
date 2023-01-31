@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useEffect, useState, useContext } from 'react'
+import { useEffect, useState, useContext, PropsWithChildren } from 'react'
 
 export interface UserPayload {
   id: string,
@@ -13,17 +13,16 @@ export interface HasAccessProps {
   roles?: string[],
   permissions?: string[]
   isLoading?: React.ReactElement,
-  renderAuthFailed?: React.ReactElement,
-  children: React.ReactChild
+  renderAuthFailed?: React.ReactElement
 }
 
-const HasAccess: React.FunctionComponent<HasAccessProps> = ({
+const HasAccess = ({
   roles,
   permissions,
   isLoading,
   renderAuthFailed,
   children
-}) => {
+}: PropsWithChildren<HasAccessProps>) => {
   const [hasAccess, setHasAccess] = useState(false)
   const [checking, setChecking] = useState(false)
 
@@ -59,9 +58,8 @@ const HasAccess: React.FunctionComponent<HasAccessProps> = ({
   
   if (hasAccess) {
     return (
-      <React.Fragment>
+      // children is of type ReactNode which already includes ReactFragment
         {children}
-      </React.Fragment>
     )
   }
 

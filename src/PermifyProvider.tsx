@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { PropsWithChildren, useCallback, useState } from "react";
 
 export interface UserPayload {
     id: string,
@@ -11,9 +11,9 @@ import PermifyContext from "./PermifyContext";
 
 const LOCAL_STORAGE_KEY_USER = "__permifyUser";
 
-const PermifyProvider: React.FunctionComponent = ({
+const PermifyProvider = ({
     children
-}) => {
+}: PropsWithChildren) => {
     const [isLoading, setIsLoading] = useState<boolean>(false);
 
     const updateUser = (newUser: UserPayload) => {
