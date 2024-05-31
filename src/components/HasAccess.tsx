@@ -46,6 +46,7 @@ const HasAccess = ({
     if (permissions && storedUser.permissions && storedUser.permissions.length > 0) {
       const intersection = storedUser.permissions.filter((permission: string) => permissions.includes(permission));
       if (intersection.length > 0) setHasAccess(true)
+      else setHasAccess(false)
     }
 
     setChecking(false)
